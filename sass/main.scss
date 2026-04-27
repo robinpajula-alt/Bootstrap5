@@ -7,8 +7,12 @@ $light: #fffde7;
 $custom-theme-colors: (
   "altlight": #fbf0ff,
   "altdark": #51006e,
+  "purpdark": #800cb6,
+  "purp-light": #b310ff,
+  "turqdark": #0cbf86,
+  "turqlight": #0fffb3,
 );
 
-$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+$theme-colors: map-merge($theme-colors, $custom-theme-colors);
 
 @import "../node_modules/bootstrap/scss/bootstrap";
